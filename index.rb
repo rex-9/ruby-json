@@ -3,6 +3,7 @@ require "json"
 raw_data = File.read('./data.json')
 
 data = JSON.parse(raw_data)
+
 data.each do |obj|
   obj["name"] += " Doe"
   obj.transform_keys!(&:to_sym)
@@ -14,5 +15,5 @@ data.map do |obj|
 end
 
 File.open('./data.json', 'w') do |file|
-  file.puts(JSON.generate(data))
+  file.puts(JSON.pretty_generate(data))
 end

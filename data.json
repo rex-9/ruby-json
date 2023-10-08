@@ -1,1 +1,12 @@
-[{"name":"John Doe Doe Doe","age":76,"address":"Address: John Doe Doe Doe, 76"},{"name":"Doe Doe Doe Doe","age":66,"address":"Address: Doe Doe Doe Doe, 66"}]
+[
+  {
+    "name": "John",
+    "age": 22,
+    "address": "Address: John, 202"
+  },
+  {
+    "name": "Doe",
+    "age": 9,
+    "address": "Address:  Doe, 192"
+  }
+]
